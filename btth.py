@@ -1,25 +1,25 @@
-# # bài 1
-# so_luong=int(input('nhập số lượng tồn kho'))
+# bài 1
+quantity=int(input('nhập số lượng tồn kho'))
 
-# if so_luong >= 50:
-#     print( "Tình trạng: Hàng đầy kho")
-# elif so_luong <50 and so_luong >10:
-#     print("Tình trạng: Mức an toàn")
-# elif so_luong < 10:
-#     print("Tình trạng: Sắp hết hàng, cần báo cáo nhập thêm")
-# else:
-#     print("Tình trạng: không hợp lệ!")
-# # bài 2
-# count_erro =0
-# while True:
-#     so_luong_loi=int(input('nhập số lỗi'))
-#     if so_luong_loi != -1:
-#         count_erro+=1
-#         print('lỗi đã được cộng thêm')
-#         continue
-#     else:
-#         break
-# print(f"Tổng số hàng lỗi thu hồi trong ngày là: {count_erro}")
+if quantity >= 50:
+    print( "Tình trạng: Hàng đầy kho")
+elif quantity <50 and quantity >10:
+    print("Tình trạng: Mức an toàn")
+elif quantity < 10:
+    print("Tình trạng: Sắp hết hàng, cần báo cáo nhập thêm")
+else:
+    print("Tình trạng: không hợp lệ!")
+# bài 2
+count_erro =0
+while True:
+    so_luong_loi=int(input('nhập số lỗi'))
+    if so_luong_loi != -1:
+        count_erro+=1
+        print('lỗi đã được cộng thêm')
+        continue
+    else:
+        break
+print(f"Tổng số hàng lỗi thu hồi trong ngày là: {count_erro}")
 # bài 3
 ton_kho = 100
 
@@ -35,3 +35,4 @@ while ton_kho >0:
         print("Xuất kho thành công!")
         print(f"Tồn kho còn lại {ton_kho}")
         break
+
