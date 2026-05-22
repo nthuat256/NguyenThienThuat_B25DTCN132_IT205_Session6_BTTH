@@ -5,7 +5,7 @@ if quantity >= 50:
     print( "Tình trạng: Hàng đầy kho")
 elif quantity <50 and quantity >10:
     print("Tình trạng: Mức an toàn")
-elif quantity < 10:
+elif quantity < 10 and quantity >=0:
     print("Tình trạng: Sắp hết hàng, cần báo cáo nhập thêm")
 else:
     print("Tình trạng: không hợp lệ!")
